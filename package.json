@@ -1,0 +1,29 @@
+{
+	"name": "ai-image-generator",
+	"version": "1.0.0",
+	"description": "App will generate an image, using AI, based on what you type into the input field",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/brianshimkus/AI-Image-Generator.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/brianshimkus/AI-Image-Generator/issues"
+	},
+	"homepage": "https://github.com/brianshimkus/AI-Image-Generator#readme",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"openai": "^3.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
